@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,500i&display=swap');
+
+body {
+  background-color: #F1F1F1;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 20px:;
+}
+
+h1 {
+  color: #6a2c70;
+}
+
+h2 {
+  color: #b83b5e
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  width: 250px;
+  height: 240px;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+  }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.cards {
+  background-color: white;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(50,50,50,0.15);
+}
+
+.btn-orange {
+  background-color: #f08a5d;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  padding: 8px 10px;
+  display: inline-block;
+}
+
+.btn-orange:hover {
+  background-color: #ed9b49;
+  transform: scale(1.1);
+}
+
+.btn-social-media {
+  background-color: white;
+  color: #f08a5d;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.inline-list {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0
+}
